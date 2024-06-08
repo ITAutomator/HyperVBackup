@@ -1,6 +1,6 @@
 ## HyperVBackup
-User guide: [PDF](https://github.com/HyperVBackup/HyperVBackup/blob/main/EntraSyncTool%20Readme.pdf)   
-Download: [ZIP](https://github.com/HyperVBackup/HyperVBackup/archive/refs/heads/main.zip)   
+User guide: [PDF](https://github.com/ITAutomator/HyperVBackup/blob/main/HyperVBackup%20Readme.pdf)   
+Download: [ZIP](https://github.com/ITAutomator/HyperVBackup/archive/refs/heads/main.zip)   
 (or click the green *Code* button (above) and click *Download Zip*)  
 
   

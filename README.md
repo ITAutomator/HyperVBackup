@@ -6,7 +6,7 @@ Download: [ZIP](https://github.com/ITAutomator/HyperVBackup/archive/refs/heads/m
   
 ## Overview
 
-HyperV Simple Backup. Creates up to 4 dated backups of the HyperV VMs on this machine (Removing the oldest). Uses this basic command: Get-VM | Export-VM
+HyperV Simple Backup. Creates up to 4 dated backups of the HyperV VMs to a folder (Removing the oldest). Uses this basic command: Get-VM | Export-VM
 
 ![image](https://github.com/ITAutomator/HyperVBackup/assets/135157036/d65fa8af-6191-49da-9ce4-cb5baa82309f)
 
@@ -39,7 +39,10 @@ Open Task Scheduler and Import the .xml file.  Adjust as needed
 Run as user: you will see the program run interactively
 Run whether logged on or not: won't see it run
 In this case 'user account' can be SYSTEM
-
+  
+## Restore  
+Hyper V Manager > Right-click VM host > Import > Select exported folder (not file) > choose the snapshot date and Import   
+  
 ## More
 Use FolderCopyWithPruning.ps1 to send some of these backups to offsite or cloud on a monthly basis
 
